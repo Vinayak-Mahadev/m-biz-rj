@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.Home {
+  background: white url('./images/bg1.jpg') center/cover no-repeat;
+  
+  min-height: 100vh;
+  min-width: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Home h2 {
+  font: 24px "Roboto Slab", sans-serif;
+  color: rgb(166, 247, 16);
+}
+.Home h1 {
+  font: 24px "Roboto Slab", sans-serif;
+  color: rgb(243, 241, 241);
+}
+
+.Nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #cbc1e9;
+}
+
+.Nav img {
+  width: 300px;
+}
+
+.Nav ul {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font: 24px 'Roboto Slab', sans-serif;
+}
+
+.Nav a {
+  text-decoration: none;
+  color: rgb(238, 8, 8);
+  font-weight : bold;
+  font: 30px "Roboto Slab", sans-serif;
+}
+
+.Nav a:visited {
+  color: rgb(241, 4, 4);
+  font-weight : bold;
+  font: 30px "Roboto Slab", sans-serif;
+}
+
+.Nav a:active{
+  color: rgb(43, 226, 43);
+  font-weight : bold;
+  font: 30px "Roboto Slab", sans-serif;
+}
+
+.Nav a:hover {
+  color: #2BAAE2;
+  font-weight : bold;
+  font: 25px "Roboto Slab", sans-serif;
+}
+
